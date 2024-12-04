@@ -1,6 +1,8 @@
-# Proyecto Full Stack (Frontend y Backend)
+# Prueba Tecnica (Frontend y Backend)
 
-Este proyecto es una aplicación full stack que incluye un **frontend** desarrollado en Vue.js y un **backend** en PHP. Sigue los pasos a continuación para configurar y ejecutar el proyecto en tu entorno local.
+Desarrollado por: Camilo Lopez
+
+Esta prueba tecnica incluye un **frontend** desarrollado en Vue.js y un **backend** en PHP. Sigue los pasos a continuación para configurar y ejecutar el proyecto en tu entorno local.
 
 ---
 
