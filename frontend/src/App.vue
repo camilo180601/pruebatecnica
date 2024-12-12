@@ -5,7 +5,7 @@
         <button @click="fetchContacts">Cargar Contactos</button>
         <DataTable v-if="contacts.length" :contacts="contacts" />
         <div v-if="value!=0">
-            {{value }}
+            {{ value }}
         </div>
     </div>
 </template>
