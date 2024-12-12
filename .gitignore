@@ -16,6 +16,7 @@ dist-ssr
 /frontend/.gitignore
 /frontend/.vscode
 /frontend/.git
+/backend/Dockerfile
 
 # Editor directories and files
 .vscode/*
