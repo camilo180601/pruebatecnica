@@ -35,8 +35,14 @@ class ApiController {
                 sendResponse(false, null, 'Failed to fetch contacts');
             }
 
+            $valueContacts = count($contacts['result']);
+            $data = [
+                'contacts'=> $contacts['result'],
+                'value'=> $valueContacts
+            ];
+
             // Enviar respuesta de éxito con los datos de contactos
-            sendResponse(true, $contacts['result'], 'Contacts retrieved successfully');
+            sendResponse(true, $data, 'Contacts retrieved successfully');
         } catch (Exception $e) {
             // Enviar respuesta de error en caso de excepciones
             sendResponse(false, null, 'Server error: ' . $e->getMessage());
